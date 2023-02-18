@@ -1,0 +1,70 @@
+input[type=range] {
+  width: 100%;
+}
+
+.Timelapse h1, 
+.Timelapse h2 {
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.Timelapse header {
+  width: 100%;
+  margin: 1em auto 2em;
+}
+
+.Timelapse time {
+  font-size: 4em;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+figure.maps {
+  margin: 1em 0;
+  position: relative;
+}
+
+figure.maps progress {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+figure.maps img {
+  position: absolute;
+  max-width: 90vw;
+  max-height: 90vh;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+figure.maps img:first-child {
+  position: relative;
+  top: initial;
+  left: initial;
+  transform: initial;
+}
+
+.Timelapse legend {
+  font-size: 0.9em;
+}
+
+.Timelapse footer {
+  margin: 2em 0;
+}
+
+button.control {
+  background-color: transparent;
+  font-size: 3em;
+  float: left;
+  margin: 0.2em 0;
+  padding: 0;
+  border-radius: 0;
+}
+
+button.control:hover {
+  background-color: transparent;
+  filter: brightness(120%);
+}
